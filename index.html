@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VALENCE RECORDS — Sonic Artifacts & Physical Editions</title>
+  <meta name="description"
+    content="Independent record label publishing high-fidelity ambient, acoustic, and physical sound editions. Home to tactile vinyl sleeves and immersive live acoustics.">
+
+  <!-- Google Fonts: Syne (Display) & Sora (Neutral Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar" id="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="nav-wordmark" id="nav-brand">
+        VALENCE<span class="amber-dot">.</span>
+      </a>
+      <nav class="nav-links" id="main-nav">
+        <a href="#statement" class="nav-link">MANIFESTO</a>
+        <a href="#releases" class="nav-link">CATALOGUE</a>
+        <a href="#roster" class="nav-link">ROSTER</a>
+        <a href="#dates" class="nav-link">DATES</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#releases" class="btn-pill" id="nav-cta">DISCOVER EDITIONS</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: PORTAL HERO -->
+  <section class="portal-hero" id="hero">
+    <div class="hero-sticky-stage" id="hero-stage">
+
+      <!-- Layer 1: Full bleed photography -->
+      <div class="hero-bg-layer" id="hero-bg">
+        <img src="assets/1.jpeg" alt="Valence Records acoustic studio portrait" class="hero-img" id="hero-image">
+      </div>
+
+      <!-- Layer 2: Duotone wash overlay -->
+      <div class="hero-duotone-wash" id="hero-duotone"></div>
+
+      <!-- Layer 3: Radial veil darkening edges -->
+      <div class="hero-radial-veil"></div>
+
+      <!-- Layer 4: Solid split doors pinned left & right -->
+      <div class="hero-panel panel-left" id="panel-left"></div>
+      <div class="hero-panel panel-right" id="panel-right"></div>
+
+      <!-- Layer 5: Accent dots travelling out -->
+      <div class="accent-dot dot-amber" id="dot-amber"></div>
+      <div class="accent-dot dot-teal" id="dot-teal"></div>
+
+      <!-- Layer 6: Title wordmark split into two traveling halves -->
+      <div class="hero-title-container" id="hero-title-wrap">
+        <h1 class="hero-title" id="hero-title">
+          <span class="title-span span-left" id="span-left">VALENCE</span>
+          <span class="title-span span-right" id="span-right">RECORDS</span>
+        </h1>
+      </div>
+
+      <!-- Layer 7: Corner metadata pins -->
+      <div class="corner-pin top-left" id="pin-tl">
+        <span class="pin-label">CATALOGUE 2026 // ED-48</span>
+      </div>
+      <div class="corner-pin top-right" id="pin-tr">
+        <span class="pin-label">AUDIO ARCHIVE // SPATIAL MONO</span>
+      </div>
+      <div class="corner-pin bottom-left" id="pin-bl">
+        <span class="pin-label">LATITUDE 51.5074° N</span>
+      </div>
+      <div class="corner-pin bottom-right" id="pin-br">
+        <span class="pin-label">SCROLL TO UNCOVER <span class="amber-text">↓</span></span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 2: STATEMENT FOLD -->
+  <section class="statement-fold" id="statement">
+    <div class="container statement-grid">
+      <div class="statement-content">
+        <div class="section-tag" id="statement-tag">
+          <span class="tag-accent">[</span> MANIFESTO / VISION <span class="tag-accent">]</span>
+        </div>
+        <blockquote class="statement-quote">
+          We publish <span class="amber-text">uncompromising sound artifacts</span> recorded in physical spaces and
+          preserved on heavyweight virgin vinyl for timeless acoustic fidelity.
+        </blockquote>
+        <div class="statement-meta">
+          <span class="meta-item">EST. MMXXIV</span>
+          <span class="meta-divider">|</span>
+          <span class="meta-item">LONDON // BERLIN // KYOTO</span>
+        </div>
+      </div>
+      <div class="statement-visual">
+        <div class="index-numeral" id="statement-index">7</div>
+        <div class="floating-vinyl-wrap" id="floating-vinyl-wrap">
+          <img src="assets/2.jpeg" alt="Valence Physical Vinyl Disc" class="floating-vinyl" id="floating-vinyl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: RELEASES (THROWABLE CARD DECK) -->
+  <section class="releases-section" id="releases">
+    <div class="container releases-grid">
+
+      <!-- Left Column: Copy & CTAs -->
+      <div class="releases-info">
+        <div class="section-tag">
+          <span class="tag-accent">[</span> CATALOGUE EDITIONS <span class="tag-accent">]</span>
+        </div>
+        <h2 class="section-headline">PHYSICAL SLEEVES</h2>
+        <p class="section-lede">
+          Each release is pressed in a limited run of 500 numbered 180g virgin vinyl copies. Enclosed in matte tactile
+          jackets with archival foil stamping and original acoustic diagrams.
+        </p>
+        <div class="releases-actions">
+          <button class="btn-pill btn-primary" id="btn-play-all">LISTEN TO DISPATCH</button>
+          <a href="#dates" class="btn-pill btn-outline" id="btn-view-roster">LIVE SHOWCASES</a>
+        </div>
+        <div class="deck-controls-hint">
+          <div class="hint-item">
+            <span class="amber-rule"></span>
+            <span class="hint-text">FLICK SLEEVES OR USE <kbd>←</kbd> <kbd>→</kbd> ARROWS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Throwable Deck -->
+      <div class="releases-deck-wrapper">
+
+        <div class="deck-container" id="card-deck" tabindex="0"
+          aria-label="Throwable album sleeve deck. Use left and right arrow keys or drag to flick cards.">
+
+          <!-- Sleeve Card 1 -->
+          <article class="deck-card card-0" data-index="0" data-code="VAL-001" data-title="MONOLITHIC DRIFT"
+            data-artist="AETHERIAL PULSE">
+            <div class="card-inner">
+              <div class="card-artwork">
+                <img src="assets/2.jpeg" alt="VAL-001 Sleeve Cover">
+              </div>
+              <div class="card-details">
+                <div class="card-top-bar">
+                  <span class="card-code">VAL-001</span>
+                  <span class="card-format">2x12" LP</span>
+                </div>
+                <h3 class="card-title">MONOLITHIC DRIFT</h3>
+                <p class="card-artist">AETHERIAL PULSE</p>
+                <div class="card-footer">
+                  <span class="card-edition">LIMITED 500 COPIES</span>
+                  <span class="teal-dot"></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sleeve Card 2 -->
+          <article class="deck-card card-1" data-index="1" data-code="VAL-002" data-title="RESONANCE IN SLATE"
+            data-artist="KINETIC ORCHESTRA">
+            <div class="card-inner">
+              <div class="card-artwork">
+                <img src="assets/3.jpeg" alt="VAL-002 Sleeve Cover">
+              </div>
+              <div class="card-details">
+                <div class="card-top-bar">
+                  <span class="card-code">VAL-002</span>
+                  <span class="card-format">1x12" LP</span>
+                </div>
+                <h3 class="card-title">RESONANCE IN SLATE</h3>
+                <p class="card-artist">KINETIC ORCHESTRA</p>
+                <div class="card-footer">
+                  <span class="card-edition">180G VIRGIN VINYL</span>
+                  <span class="amber-dot"></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sleeve Card 3 -->
+          <article class="deck-card card-2" data-index="2" data-code="VAL-003" data-title="SILENT ARCHITECTURE"
+            data-artist="HELIOS DRIFT">
+            <div class="card-inner">
+              <div class="card-artwork" id="artwork-2">
+                <div class="card-flip-inner">
+                  <div class="card-flip-front">
+                    <img src="assets/4.jpeg" alt="VAL-003 Sleeve Cover">
+                  </div>
+                  <div class="card-flip-back">
+                    <img src="assets/5.jpeg" alt="VAL-003 Sleeve Backside">
+                  </div>
+                </div>
+              </div>
+              <div class="card-details">
+                <div class="card-top-bar">
+                  <span class="card-code">VAL-003</span>
+                  <span class="card-format">CASSETTE + TAPE</span>
+                </div>
+                <h3 class="card-title">SILENT ARCHITECTURE</h3>
+                <p class="card-artist">HELIOS DRIFT</p>
+                <div class="card-footer">
+                  <span class="card-edition">EDITION OF 250</span>
+                  <span class="teal-dot"></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sleeve Card 4 -->
+          <article class="deck-card card-3" data-index="3" data-code="VAL-004" data-title="SUB-FREQUENCY SUITE"
+            data-artist="ISOLATE FREQ">
+            <div class="card-inner">
+              <div class="card-artwork">
+                <img src="assets/5.jpeg" alt="VAL-004 Sleeve Cover">
+              </div>
+              <div class="card-details">
+                <div class="card-top-bar">
+                  <span class="card-code">VAL-004</span>
+                  <span class="card-format">2x12" DOUBLE GATEFOLD</span>
+                </div>
+                <h3 class="card-title">SUB-FREQUENCY SUITE</h3>
+                <p class="card-artist">ISOLATE FREQ</p>
+                <div class="card-footer">
+                  <span class="card-edition">MASTER LATHE EDITION</span>
+                  <span class="amber-dot"></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Deck Pagination Dots & Interactive Info -->
+        <div class="deck-pagination" id="deck-pagination">
+          <div class="progress-dots" id="progress-dots">
+            <button class="dot-btn active" data-target="0" aria-label="Go to sleeve 1"></button>
+            <button class="dot-btn" data-target="1" aria-label="Go to sleeve 2"></button>
+            <button class="dot-btn" data-target="2" aria-label="Go to sleeve 3"></button>
+            <button class="dot-btn" data-target="3" aria-label="Go to sleeve 4"></button>
+          </div>
+          <div class="deck-active-meta" id="deck-meta">
+            <span class="meta-code" id="meta-code">VAL-001</span>
+            <span class="meta-sep">—</span>
+            <span class="meta-title" id="meta-title">MONOLITHIC DRIFT</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4: ROSTER -->
+  <section class="roster-section" id="roster">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">
+            <span class="tag-accent">[</span> ARTIST ROSTER <span class="tag-accent">]</span>
+          </div>
+          <h2 class="section-headline">CURATED ARTISTS</h2>
+        </div>
+        <div class="roster-wheel-wrap" id="roster-wheel-wrap">
+          <img src="assets/4.jpeg" alt="Valence roster image" class="roster-wheel" id="roster-wheel">
+        </div>
+      </div>
+
+      <div class="roster-list" id="roster-list">
+
+        <!-- Row 1 -->
+        <div class="roster-row" data-artist="aetherial">
+          <div class="roster-col col-tag">
+            <span class="roster-tag">[ AMBIENT / ACOUSTIC ]</span>
+          </div>
+          <div class="roster-col col-name">
+            <span class="roster-name">AETHERIAL PULSE</span>
+          </div>
+          <div class="roster-col col-location">
+            <span class="roster-loc">LONDON, UK</span>
+          </div>
+          <div class="roster-col col-count">
+            <span class="roster-count">04 RELEASES</span>
+          </div>
+          <div class="roster-wave" aria-hidden="true">
+            <div class="roster-wave-track"></div>
+            <span class="roster-wave-label">SIGNAL PREVIEW</span>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="roster-row" data-artist="kinetic">
+          <div class="roster-col col-tag">
+            <span class="roster-tag">[ EXPERIMENTAL / SYNTH ]</span>
+          </div>
+          <div class="roster-col col-name">
+            <span class="roster-name">KINETIC ORCHESTRA</span>
+          </div>
+          <div class="roster-col col-location">
+            <span class="roster-loc">BERLIN, DE</span>
+          </div>
+          <div class="roster-col col-count">
+            <span class="roster-count">06 RELEASES</span>
+          </div>
+          <div class="roster-wave" aria-hidden="true">
+            <div class="roster-wave-track"></div>
+            <span class="roster-wave-label">SIGNAL PREVIEW</span>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="roster-row" data-artist="helios">
+          <div class="roster-col col-tag">
+            <span class="roster-tag">[ MODERN COMPOSITION ]</span>
+          </div>
+          <div class="roster-col col-name">
+            <span class="roster-name">HELIOS DRIFT</span>
+          </div>
+          <div class="roster-col col-location">
+            <span class="roster-loc">REYKJAVIK, IS</span>
+          </div>
+          <div class="roster-col col-count">
+            <span class="roster-count">03 RELEASES</span>
+          </div>
+          <div class="roster-wave" aria-hidden="true">
+            <div class="roster-wave-track"></div>
+            <span class="roster-wave-label">SIGNAL PREVIEW</span>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="roster-row" data-artist="isolate">
+          <div class="roster-col col-tag">
+            <span class="roster-tag">[ DENSE DUB / TAPE ]</span>
+          </div>
+          <div class="roster-col col-name">
+            <span class="roster-name">ISOLATE FREQ</span>
+          </div>
+          <div class="roster-col col-location">
+            <span class="roster-loc">KYOTO, JP</span>
+          </div>
+          <div class="roster-col col-count">
+            <span class="roster-count">05 RELEASES</span>
+          </div>
+          <div class="roster-wave" aria-hidden="true">
+            <div class="roster-wave-track"></div>
+            <span class="roster-wave-label">SIGNAL PREVIEW</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: LIVE DATES TABLE -->
+  <section class="dates-section" id="dates">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">
+            <span class="tag-accent">[</span> PERFORMANCE SCHEDULE <span class="tag-accent">]</span>
+          </div>
+          <h2 class="section-headline">LIVE SESSIONS & SHOWCASES</h2>
+        </div>
+        <img src="assets/5.jpeg" alt="Valence live sessions image" class="section-header-img">
+      </div>
+
+      <div class="table-responsive">
+        <table class="dates-table">
+          <thead>
+            <tr>
+              <th>DATE</th>
+              <th>EVENT / PERFORMANCE</th>
+              <th>VENUE & LOCATION</th>
+              <th>FORMAT</th>
+              <th class="text-right">STATUS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-date">14.09.26</td>
+              <td class="col-event">RESONANCE NIGHT // VOL. 04</td>
+              <td class="col-venue">KRAFTWERK — BERLIN</td>
+              <td class="col-format">SPATIAL QUAD PHONIC</td>
+              <td class="col-status text-right">
+                <span class="status-badge available">[ TICKETS AVAILABLE ]</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="col-date">28.09.26</td>
+              <td class="col-event">ACOUSTIC DENSITY SHOWCASE</td>
+              <td class="col-venue">BARBICAN CENTRE — LONDON</td>
+              <td class="col-format">SOLO RECITALS</td>
+              <td class="col-status text-right">
+                <span class="status-badge available">[ TICKETS AVAILABLE ]</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="col-date">12.10.26</td>
+              <td class="col-event">ANALOG LATHE SESSION</td>
+              <td class="col-venue">METROPOLIS STUDIO — TOKYO</td>
+              <td class="col-format">LIVE VINYL CUTTING</td>
+              <td class="col-status text-right">
+                <span class="status-badge limited">[ LIMITED SEATS ]</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="col-date">05.11.26</td>
+              <td class="col-event">VALENCE ANNUAL DISPATCH</td>
+              <td class="col-venue">HARPA CONCERT HALL — REYKJAVIK</td>
+              <td class="col-format">FULL LABEL ROSTER</td>
+              <td class="col-status text-right">
+                <span class="status-badge upcoming">[ ANNOUNCING SOON ]</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: TYPOGRAPHIC CLOSE -->
+  <footer class="close-section" id="close">
+    <div class="container close-grid">
+      <div class="close-header">
+        <div class="close-header-text">
+          <h2 class="close-headline">TRANSCEND THE NOISE<span class="amber-dot">.</span></h2>
+          <p class="close-lede">
+            Subscribe to the physical dispatch for quarterly lathe-cut releases, original test pressings, and private
+            spatial sessions.
+          </p>
+        </div>
+        <div class="close-images" id="close-images">
+          <img src="assets/3.jpeg" alt="Valence archival sleeve" class="close-thumb">
+        </div>
+      </div>
+      <div class="close-actions">
+        <a href="#releases" class="btn-pill btn-primary" id="btn-subscribe">JOIN DISPATCH</a>
+        <a href="mailto:contact@valencerecords.com" class="btn-pill btn-outline" id="btn-contact">CONTACT LABELS</a>
+      </div>
+    </div>
+
+    <!-- Hairline footer strip -->
+    <div class="footer-strip container">
+      <div class="strip-left">
+        <span>© 2026 VALENCE RECORDS</span>
+        <span class="strip-sep">/</span>
+        <span>ALL RIGHTS RESERVED</span>
+      </div>
+      <div class="strip-right">
+        <span>VAL-MAN-2026</span>
+        <span class="strip-sep">/</span>
+        <a href="#hero" class="back-to-top">BACK TO TOP ↑</a>
+      </div>
+    </div>
+
+    <!-- Giant Display Wordmark Cropped by Bottom Edge -->
+    <div class="cropped-wordmark-container">
+      <div class="cropped-wordmark" id="footer-wordmark">
+        VALENCE RECORDS
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
